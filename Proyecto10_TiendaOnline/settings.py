@@ -136,8 +136,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-#EMAIL_HOST_USER = 'didier.garcia.galviz@gmail.com'         # Tu correo
-#EMAIL_HOST_PASSWORD = 'dxlj rufq iwnk hhcl' # No es tu contraseña normal
+#EMAIL_HOST_USER = ''         # Tu correo
+#EMAIL_HOST_PASSWORD = '' # No es tu contraseña normal
 
 # cambiamos estas dos ultimas lineas porque al subir al proyecto a github necesitamos proteger el correo y la password
 # cuando subamos el proyecto a render establecemos la conexion con mi cuenta y contraseña correctas
