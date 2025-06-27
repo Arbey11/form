@@ -14,4 +14,4 @@ def contacto(request):
 
         send_mail(subject, message, from_email, recipient_list)
         return render(request, 'respuesta_cliente.html')
-    return render(request, 'contacto.html') 
+    return render(request, 'App10/contacto.html') 

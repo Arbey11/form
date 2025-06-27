@@ -56,7 +56,7 @@ ROOT_URLCONF = 'Proyecto10_TiendaOnline.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['C:/Users/Didier/Desktop/HTI/DEV && TECH/8. FRONTEND 2/clase_10/Proyecto10_TiendaOnline/Templates'],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
