@@ -1,0 +1,1 @@
+web: gunicorn Proyecto10_TiendaOnline.wsgi
